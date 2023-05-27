@@ -185,38 +185,169 @@ h4{
 .hobbies ul li i{
     font-size: 2em;
 }
-@media (max-width:800px){
-    .top{
-        background: white;
-        
+
+@media (max-width:894px) {
+    .top .group .rightSide p{
+        font-size: 1em;
     }
-    h2{
-        font-size: 1.3em;
-        justify-content: center;
-        text-align: center;
-        color: #232fbf;
+}
+@media (max-width:835px) {
+    .top h2{
+        line-height: 0.7em;
+        font-size: 2.3em;
+    }
+    .top .group .rightSide p{
+        font-size: 0.99em;
+    }
+    .group .imgBx img {
+        width: 14em;
+        height: 17.5em;
+    }
+}
+@media (max-width:785px){
+    
+    .top{
+        background: none;
     }
     .group{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        flex-wrap: wrap;
-        font-size: 1em;
-        align-items: center;
-    justify-content: center;
+           grid-template-columns: none;
+             
     }
-    .group p{
-        color: #232fbf;
+    .top .group .rightSide p{
+        color: #333;
     }
-    
+    .top h2{
+        
+        color: #231fbf;
+    }
     .bottom{
-        margin-top: 11em;
         grid-template-columns: none;
+        margin: 250px 50px 0;
     }
-    
+    .group .imgBx img {
+        
+        margin-left: 10em;
+    }
+}
+@media (max-width:676px){
+    .top h2{
+        
+        font-size: 2em;
+    }
+    .group .imgBx img {
+        margin-left: 6em;
+    }
+}
+@media (max-width:616px){
+    .top h2{
+        
+        font-size: 1.8em;
+    }
+}
+@media (max-width:575px){
+    .bottom{
+       
+        margin: 277px 50px 0;
+    }
+    .top h2{
+        
+        font-size: 1.6em;
+    }
+    .group .imgBx img {
+        margin-left: 5em;
+    }
+    .educ_groupBx {
+       grid-template-columns: none;
+}
+.educ_groupBx .value{
+    padding: 10px 0;
+}
+}
+
+@media (max-width:533px){
+    .bottom .left_side {
+        margin-top: 55px;
+    }
+    .top h2{
+        
+        font-size: 1.2em;
+    }
+    .group .imgBx img {
+        margin-left: 2em;
+    }
     .hobbies ul{
-        flex-direction: column;
-            }
-    
+        flex-flow: column;
+    }
+    .hobbies ul li{
+        width: 100%;
+        
+    }
+}
+@media (max-width:482px){
+    .bottom .left_side {
+        margin-top: 75px;
+    }
    
 }
+@media (max-width:415px){
+    .bottom .left_side {
+        margin-top: 82px;
+    }
+    .group .imgBx img {
+        margin-left: 1em;
+    }
+}
+@media (max-width:344px){
+    .bottom .left_side {
+        margin-top: 103px;
+    }
+    .top h2 {
+        font-size: 1.1em;
+    }
+}
+@media (max-width:328px){
+    .bottom .left_side {
+        margin-top: 120px;
+    }
+    .top h2 {
+        font-size: 0.9em;
+    }
+    .group .imgBx img {
+        margin-left: 0.8em;
+    }
+    
+}
+@media (max-width:287px){
+    .top h2 {
+        font-size: 0.8em;
+    }
+    .group .imgBx img {
+        margin-left: -1em;
+    }
+    .top .group .rightSide p {
+        font-size: 0.89em;
+    }
+    .bottom {
+        margin: 222px 50px 0;
+    }
+    .contactIfo li .text {
+        font-size: 0.89em;
+    }
+    .skills .skillBox .value {
+        width: 80%;
+    }
+    .skills .skillBox p{
+        font-size: 0.89em;
+    }
+    .edu_group{
+        font-size: 0.89em; 
+    }
+    .edu_group .educ_groupBx .value p{
+        font-size: 0.89em; 
+    }
+    .educ_groupBx p:nth-child(1){
+        font-size: 0.89em; 
+    }
+}
+
+
